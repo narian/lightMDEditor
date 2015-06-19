@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Light Markdown Editor</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/lightmde.css"><!-- just example of layout -->
+</head>
+<body>
+	<form class="editor-form">
+		<div id="editor"></div>
+		<p><input type="submit" value="Save" /> (actually, this doesn't do anything)</p>
+	</form>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="./js/markdown.js"></script>
+	<script src="./js/lightmde.jquery.min.js"></script>
+
+	<script type="text/javascript">
+		var options = {};
+		$('#editor').lightMDE(options);
+	</script>
+</body>
+</html>

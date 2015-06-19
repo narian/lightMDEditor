@@ -1,0 +1,109 @@
+* {
+    margin:0; 
+    padding:0; 
+    font-family:Arial,sans-serif;
+    box-sizing:border-box;
+}
+
+.editor-form { 
+    width:100%;
+    max-width:800px;
+    min-width:640px;
+    margin:20px auto;
+    display:block;
+    background:#e1e1e1;
+    padding:15px;
+}
+
+.lightMDE__icons {
+    display:block;
+    position:relative;
+    overflow:hidden;
+    padding:5px 0;
+    margin:0 0 10px;
+}
+
+.lightMDE__icons a {
+    width:32px;
+    height:32px;
+    display:inline-block;
+    text-decoration:none;
+    text-align:center;
+    padding:8px;
+    margin-right:5px;
+    border-radius:2px;
+    background:#ccc;
+    box-shadow:0 2px 0 #bbb;
+    overflow:hidden;
+    color:#000;
+}
+
+.lightMDE__icons a:hover {
+    background:#f9f9f9;
+    box-shadow:0 2px 0 #d6d6d6;
+}
+
+.lightMDE__icons .lightMDE__preview-btn { 
+    width:auto;
+    font-size:14px;
+    display:block;
+    float:right;
+}
+
+.lightMDE__area {
+    width:100%;
+    height:240px;
+    display:block;
+    padding:7px;
+    box-sizing:border-box;
+    font-family:'Consolas';
+    margin:0 0 15px;
+}
+
+.lightMDE__area:focus{
+    outline:none;
+}
+
+
+/* preview styles */
+.lightMDE__preview {
+    display:block;
+    position:relative;
+    padding:7px;
+    margin:0 0 15px;
+    background:#fff;
+}
+
+.lightMDE__preview--hidden {
+    display:none;
+}
+
+.lightMDE__preview p {
+    margin:5px 0;
+
+}
+
+.lightMDE__preview a {
+    color:#3C7DC4;
+    text-decoration:none;
+}
+
+.lightMDE__preview a:hover{
+    text-decoration:underline;
+}
+
+.lightMDE__preview blockquote {
+    padding:5px 15px;
+    margin:15px 0;
+    border-left:5px solid #3C7DC4;
+}
+
+.lightMDE__preview ul,
+.lightMDE__preview ol {
+    padding-left:20px;
+}
+
+.lightMDE__preview li {
+    margin:4px 0;
+}
+/* preview styles */
